@@ -1,1 +1,1 @@
-include 'desktop', 'android', 'ios', 'html', 'core'
+include 'cocosbuilder', 'desktop', 'android', 'ios', 'html', 'core'
