@@ -118,12 +118,6 @@ public class CocosScene extends CCLayer {
 	
 	public void update(float dt)
 	{
-        CCDirector pDirector = CCDirector.sharedDirector();
-        Random random = new Random();
-        Color color = new Color(random.nextInt());
-        pDirector.setGlClearColor(color);
-        pDirector.setOpenGlView();
-        
 		Array<CCNode> projectilesToDelete = new Array<CCNode>();
 	    
 	    for (CCSprite it : _projectiles)

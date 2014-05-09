@@ -1,9 +1,11 @@
 package cocos2d.cocosbuilder;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 
 import cocos2d.CCApplication;
 import cocos2d.CCDirector;
+import cocos2d.cocoa.CCSize;
 import cocos2d.layers_scenes_transitions_nodes.CCScene;
 
 public class CocosApplication extends CCApplication {
